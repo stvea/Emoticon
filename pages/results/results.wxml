@@ -1,0 +1,4 @@
+<!--pages/results/results.wxml-->
+  <view style='width:100vw;' wx:for="{{pic}}">
+    <image style='float:left;width:32vw;height:32vw;margin:0.5vw 0.5vw;' src='{{pic[index].name}}' bindtap="previewImage" data-id='{{pic[index].name}}'  />
+  </view>
