@@ -67,3 +67,6 @@
   </view>
 </view>
 </form>
+<view style="width:100vw;position:absolute;bottom:2px;left:0px;text-align:center;font-size:10px;color:#848484;">
+        Power bySTVEA@2018
+</view>
