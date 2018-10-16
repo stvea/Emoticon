@@ -49,10 +49,12 @@ Page({
   },
   update:function(e){
     var that = this;
-    if(that.data.filesUrl!=null){
+    if(that.data.filesUrl!=""){
       var url = that.data.filesUrl
+      console.log(that.data.filesUrl);
     }else{
       var url = String(e.detail.value.url);
+      console.log("success!");
     }
     var des = String(e.detail.value.des)
     var that = this;
